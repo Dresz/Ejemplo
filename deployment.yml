@@ -14,10 +14,10 @@ spec:
     spec:
       containers:
       - name: server1-container
-        image: gcr.io/kubproject-292502/server111:1.0
+        image: gcr.io/propane-library-294801/server111:1.0
         ports:
         - containerPort: 3000
       - name: server2-containter
-        image: gcr.io/kubproject-292502/server112:1.0
+        image: gcr.io/propane-library-294801/server112:1.0
         ports:
         - containerPort: 5000
